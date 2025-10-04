@@ -1,0 +1,17 @@
+# Core TTS engine
+TTS==0.22.0
+
+# Deep learning frameworks
+torch==2.5.1
+torchaudio==2.5.1
+
+# Audio handling
+pydub==0.25.1
+soundfile==0.12.1
+
+# Optional but recommended
+numpy>=1.26.0
+scipy>=1.11.0
+
+# If you use sentence splitting or NLP features from TTS
+nltk>=3.9

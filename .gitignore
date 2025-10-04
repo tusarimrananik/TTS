@@ -1,0 +1,41 @@
+
+---
+
+### 📄 `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Audio files
+*.wav
+*.mp3
+chunks/
+motivational_story_clean.wav
+
+# Model files
+models/
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+venv/
+__pycache__/
+*.mp4
+*.wav
+*.mp3
+assets/images/*
+assets/audio/*
