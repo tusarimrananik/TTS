@@ -19,3 +19,4 @@ from scripts.script import generate_motivational_text
 # MOTIVATIONAL SCRIPTS
 prompt = "Overcoming challenges and achieving success"
 print(generate_motivational_text(prompt))
+# This is a test commit
