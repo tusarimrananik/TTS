@@ -1,12 +1,21 @@
-from scripts.get_images import download_images
-from scripts.text_to_speech import load_tts, generate_audio
+# from scripts.get_images import download_images
+# from scripts.text_to_speech import load_tts, generate_audio
+from scripts.script import generate_motivational_text
 
-# download_images("nature", per_page=10)
+# DOWNLOAD AND SAVE IMAGES
+# download_images("tech", per_page=10)
 
-sentences = [
-    "There are four things you must never do if you want to rise.",
-    "Never quit, for every champion was once a beginner who refused to give up.",
-]
-speaker_wav = "assets/audio/reference/Brain.wav"
-tts = load_tts()
-generate_audio(tts, sentences, speaker_wav)
+# TEXT TO SPEACH
+# sentences = [
+#     "Every setback is a setup for a comeback that shapes your destiny.",
+#     "Your thoughts become your reality, choose them with wisdom.",
+#     "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+#     "The only limit to our realization of tomorrow will be our doubts of today.",
+# ]
+# speaker_wav = "assets/audio/reference/Brain.wav"
+# tts = load_tts()
+# generate_audio(tts, sentences, speaker_wav)
+
+# MOTIVATIONAL SCRIPTS
+prompt = "Overcoming challenges and achieving success"
+print(generate_motivational_text(prompt))
