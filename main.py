@@ -1,9 +1,9 @@
-# from scripts.get_images import download_images
+from scripts.get_images import download_images
 # from scripts.text_to_speech import load_tts, generate_audio
-from scripts.script import generate_motivational_text
+from scripts.get_speach import generate_motivational_text
 
 # DOWNLOAD AND SAVE IMAGES
-# download_images("tech", per_page=10)
+download_images("tech", per_page=10)
 
 # TEXT TO SPEACH
 # sentences = [
