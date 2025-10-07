@@ -40,3 +40,4 @@ __pycache__/
 assets/images/*
 assets/audio/*
 *.env
+*.ass
