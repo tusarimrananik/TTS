@@ -19,8 +19,6 @@ env/
 # Audio files
 *.wav
 *.mp3
-chunks/
-motivational_story_clean.wav
 
 # Model files
 models/
@@ -34,10 +32,10 @@ Thumbs.db
 
 venv/
 __pycache__/
+
+assets/*
 *.mp4
 *.wav
 *.mp3
-assets/images/*
-assets/audio/*
 *.env
 *.ass

@@ -25,7 +25,7 @@ def generate_audio(
     sentences,
     speaker_wav,
     output_dir="assets/audio/generated",
-    output_file="assets/audio/generated/final_output.wav",
+    output_file="assets/audio/generated/output.wav",
 ):
     """Generate speech from sentences, merge them, and save final audio."""
     os.makedirs(output_dir, exist_ok=True)
@@ -46,5 +46,4 @@ def generate_audio(
     # Merge chunks into one file
     final_audio = sum(all_chunks)
     final_audio.export(output_file, format="wav")
-    print(f"\n🎉 Finished! Saved as {output_file}")
 
